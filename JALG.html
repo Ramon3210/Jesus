@@ -26,4 +26,79 @@
  <h1>Hacia Arriba</h1>
 </div>
 
+
+<ul>
+
+<li type="circle">Esto es un tipo de punto.</li>
+
+<li type="square">Este es otro.</li>
+
+<li type="disc">Y este es otro diferente.</li>
+
+</ul>
+
+
+<br><br><br><br>
+
+<dl>
+
+<dt>Aquí va el término que definiremos</dt>
+
+<dd>Y aquí dentro irá la definición propiamente dicha.</dd>
+
+</dl>
+
+<dl>
+
+<dt>Aquí va la segunda definición</dt>
+
+<dd>Y aquí dentro irá la segunda definición, separada automáticamente de la anterior.</dd>
+
+</dl>
+<br><br><br><br>
+
+Estás aquí: Inicio / Curso de HTML / Listas HTML
+Listas no ordenadas: <ul>
+Las listas no ordenadas van dentro de la etiqueta <ul> HTML y de su cierre </ul>. Cada punto que queramos añadir a la lista, lo haremos dentro de la etiqueta <li> y su cierre.
+
+Si no le indicamos nada a la etiqueta <li> HTML, ésta se generará de forma automática. Pero si queremos definir nosotros mismo el símbolo del punto, podemos gracias al atributo “type”.
+
+Así podemos hacer que la lista esté definida por puntos negros (li type=”disc”), por puntos con el fondo blanco (li type=”circle”) o por cuadrados (li type=”square”). Aunque esta apariencia dependerá del navegador. Hay algunos navegadores que dan otras apariencias a estos mismos atributos.
+
+Vamos con un pequeño ejemplo en código:
+
+<ul>
+
+<li type="circle">Esto es un tipo de punto.</li>
+
+<li type="square">Este es otro.</li>
+
+<li type="disc">Y este es otro diferente.</li>
+
+</ul>
+Cuyo resultado visual será el que veremos a continuación:
+
+
+Esto es un tipo de punto.
+
+Este es otro.
+
+Y este es otro diferente.
+
+Listas ordenadas: <ol>
+Las listas ordenadas van enmarcadas dentro de las etiquetas <ol> </ol>. Cada punto de la lista se escribe con la misma etiqueta que en las no numeradas: <li>. Pero al ser listas ordenadas los símbolos serán números y éstos se irán generando automáticamente por orden, conforme escribamos nuevos puntos.
+
+En las listas ordenadas podemos hacer que el primer punto comience con el número que nosotros queramos. Lo conseguiremos gracias al atributo “value”. Los siguientes puntos que escribamos se generarán automáticamente por orden, partiendo de ese número.
+
+Por ejemplo, si queremos que nuestra lista empiece por el número 20, sólo deberemos escribir lo siguiente:
+
+<ol>
+
+<li value="20">Este será el número 20. </li>
+
+<li>Este será el 21. </li>
+
+<li> Este será el 22. Y así sucesivamente. </li>
+
+</ol>
 </html>
